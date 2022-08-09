@@ -3,7 +3,7 @@ class Security {
     constructor(){
 
         this.access1 = createInput("Code1")
-        this.access1.position(windowWidth-1435,windowHeight-655);
+        this.access1.position(150,100);
         this.access1.style('background', 'white');  
 
         this.button1 = createButton('Check');
